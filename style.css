@@ -31,10 +31,21 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    height: 500px;
     padding:1rem;
 }
+.home {
+    min-height: 100vh;
+}
+.imageProfile{
+    height: 100%;
+    width: 100%;
+}
 
+.header-image {
+    min-height: 100vh;
+}
 /* Common  */
 
 .bg-warning {
@@ -46,12 +57,13 @@ section{
 }
 
 .title {
-    font-weight: 700;
+    font-weight: bold;
     font-size: 2rem;
 }
 
 .desc {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 300;
     margin-bottom: 10px;
 }
 
