@@ -301,57 +301,6 @@ header .navbar ul li a:hover{
     color:#fff;
     list-style: none;
 }
-
-progress {
-    vertical-align: baseline;
-}
-
-@-webkit-keyframes progress-bar-stripes {
-from {
-    background-position: 1rem 0;
-}
-to {
-    background-position: 0 0;
-}
-}
-
-@keyframes progress-bar-stripes {
-from {
-    background-position: 1rem 0;
-}
-to {
-    background-position: 0 0;
-}
-}
-
-.progress {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 1.3rem;
-    overflow: hidden;
-    font-size: 1.2rem;
-    background-color: #e9ecef;
-    border-radius: 0.25rem;
-}
-
-.progress-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    background-color: #007bff;
-    transition: width 0.6s ease;
-}
-
 .contact .row{
     display: flex;
     align-items: center;
@@ -365,31 +314,7 @@ to {
     padding-bottom: 0;
 }
 
-.contact .row form{
-    flex:1 1 45rem;
-    padding:2rem;
-    margin:2rem;
-    margin-bottom: 4rem;
-}
 
-.contact .row form .box{
-    padding:1.5rem;
-    margin:1rem 0;
-    background:#3333;
-    color:#fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width:100%;
-}
-
-.contact .row form .box::placeholder{
-    text-transform: capitalize;
-}
-
-.contact .row form .message{
-    height: 15rem;
-    resize: none;
-}
 
 .contact .row .content .title{
     text-transform: uppercase;
@@ -405,6 +330,7 @@ to {
     color:#eee;
     padding:1rem 0;
     font-weight: normal;
+    text-transform: none;
 }
 
 .contact .row .content .info h3 i{
